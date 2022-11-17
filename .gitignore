@@ -127,3 +127,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Mapbox token
+secrets.env
+
+# Jupyter notebooks used for dev
+*.ipynb

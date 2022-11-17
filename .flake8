@@ -1,0 +1,6 @@
+[flake8]
+# config to align with black
+max-line-length = 100
+select = C,E,F,W,B,B950
+# remove of E231 when https://github.com/psf/black/issues/1288 is fixed
+ignore = E203, E231, W291, E501, W503,
